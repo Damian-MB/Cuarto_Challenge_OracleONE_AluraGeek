@@ -1,0 +1,84 @@
+.rodapie__contenedor1 {
+    background-color: #eaf2fd;
+    display: flex;
+    flex-wrap: wrap;
+    height: 368px;
+    padding: 64px 10%;
+}
+
+.rodapie__contenedor1__logo {
+    width: 25%;
+}
+.rodapie__contenedor1__links {
+    width: 25%;
+}
+.links__lista {
+    list-style: none;
+    line-height: 2.5em;
+}
+.links__lista__item a {
+    color: #464646;
+    font-weight: 500;
+    text-decoration: none;
+}
+.rodapie__contenedor1__contacto {
+    width: 50%;
+}
+.formulario__etiqueta {
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.formulario__nombre, .formulario__mensaje {
+    border: none;
+    border-radius: 4px;
+    color: #464646;
+    display: block;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 56px;
+    margin: 10px 0;
+    padding: 0 15px;
+    width: 100%;
+}
+.formulario__mensaje {
+    height: 82px;
+    padding-top: 10px;
+}
+.formulario__nombre::placeholder, .formulario__mensaje::placeholder {
+    color: #A2A2A2;
+    font-family: 'Raleway',sans-serif;
+    font-size: 12px;
+    left: 12px;
+    top: 10px;
+    position: absolute;
+}
+
+.formulario__boton {
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    display: block;
+    height: 51px;
+    width: 144px;
+}
+.formulario__boton:hover {
+    background-color: #FFFFFF;
+    border: 1.5px solid #2A7AE4;
+    color: #2A7AE4;
+    font-weight: 600;
+}
+.rodapie__contenedor2 {
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #464646;
+    display: flex;
+    font-size: 16px;
+    height: 102px;
+    justify-content: center;
+}

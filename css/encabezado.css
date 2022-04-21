@@ -1,0 +1,108 @@
+.encabezado__principal {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    padding: 32px 0px;
+}
+
+.encabezado__principal__contenedor {
+    align-items: center;
+    display: flex;
+    height: 50px;
+}
+
+.encabezado__principal__logo {
+    margin-right: 32px;
+}
+
+.encabezado__principal__entrada {
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: space-between;
+    padding: 5px 16px 5px 8px;
+    width: 393px;
+}
+
+.principal__entrada__busqueda {
+    background-color: inherit;
+    border: none;
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    height: 100%;
+    margin-right: 15px;
+    padding: 2px 0px 2px 8px;
+    width: 100%;
+}
+
+.principal__entrada__busqueda::placeholder {
+    color: #A2A2A2;
+}
+
+.encabezado__principal__boton {
+    align-items: center;
+    background: none;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    height: 51px;
+    justify-content: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    width: 182px;
+}
+
+.encabezado__principal__boton:hover {
+    background-color:  #2A7AE4;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.encabezado__banner {
+    align-items: flex-end;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("https://images.unsplash.com/photo-1527896573815-b7dd74893deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80") center/cover no-repeat;
+    display: flex;
+    height: 352px;
+    justify-content: left;
+    padding-left: 10%;
+    padding-bottom: 2%;
+}
+
+.banner__texto__titulo {
+    color: #FFFFFF;
+    font-size: 52px;
+    margin: 16px 0;
+}
+
+.banner__texto__descripcion {
+    color: #FFFFFF;
+    font-size: 22px;
+    margin: 16px 0;
+}
+
+.banner__texto__boton {
+    background-color: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    height: 51px;
+    width: 129px;
+}
+
+.banner__texto__boton:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #2A7AE4;
+    color: #2A7AE4;
+    font-weight: 600;
+}
