@@ -4,9 +4,22 @@
     box-sizing: border-box;
 }
 
+:root {
+    --colorAzul: #2A7AE4;
+    --colorBlanco: #FFFFFF;
+    --colorBordeForm: #C8C8C8;
+    --colorBuscador: #F5F5F5;
+    --colorFondo: #E5E5E5;
+    --colorPlaceholder: #A2A2A2;
+    --colorRodapie: #eaf2fd;
+    --colorTexto: #464646;
+
+}
+
 .app {
     font-family: 'Raleway', sans-serif;
 }
+
 .contenido {
-    background-color: #E5E5E5;
+    background-color: var(--colorFondo);
 }

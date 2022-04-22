@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AluraGeek | Login</title>
+    <title>AluraGeek | Cuenta</title>
     <link href="../css/styles.css" rel="stylesheet">
     <link href="../css/encabezado.css" rel="stylesheet">
-    <link href="../css/login.css" rel="stylesheet">
+    <link href="../css/agregarProducto.css" rel="stylesheet">
     <link href="../css/rodapie.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
@@ -31,21 +31,30 @@
 
     <main class="contenido">
         <section>
-            <form class="formularioLogin">
-                <h3 class="formularioLogin__titulo">Iniciar Sesión</h3>
-                <input class="formulario__entrada" type="email" placeholder="Escriba su correo electrónico">
-                <input class="formulario__entrada" type="text" placeholder="Escriba su contraseña">
-                <a href="./agregarProducto.html" style="text-decoration: none;"><input class="formulario__boton login" type="button" value="Entrar"></a>
+            <form class="agregarProducto__formulario">
+                <h3 class="agregarProducto__titulo">Agregar nuevo producto</h3>
+                <div class="agregarProducto__imagen">
+                    <div class="imagen__arrastrar">
+                        <p class="imagen__arrastrar__texto">Arrastre para agregar una imagen para el producto</p>
+                        <p class="imagen__agregar__texto">Agregar una imagen para el producto</p>
+                    </div>
+                    <div class="imagen__cargar">
+                        <span class="imagen__cargar__texto">o</span>
+                        <button class="encabezado__principal__boton cargar">Busque en su computador</button>
+                    </div>
+                </div>
+                <input class="formulario__entrada" type="text" placeholder="Nombre del producto">
+                <input class="formulario__entrada" type="number" placeholder="Precio del producto">
+                <textarea class="formulario__entrada descripcion" placeholder="Descripción del producto"></textarea>
+                <input class="formulario__boton nuevoProducto" type="button" value="Agregar Producto">
             </form>
         </section>
     </main>
-
     <footer class="rodapie">
         <div class="rodapie__contenedor1">
             <div class="rodapie__contenedor1__caja1">
                 <div class="rodapie__contenedor1__logo">
-                    <a href="./index.html"><img class="logo__aluraGeek" src="../img/Logo.png"
-                        alt="logo de AluraGeek"></a>
+                    <img class="logo__aluraGeek" src="../img/Logo.png" alt="logo de AluraGeek">
                 </div>
                 <div class="rodapie__contenedor1__links">
                     <ul class="links__lista">
